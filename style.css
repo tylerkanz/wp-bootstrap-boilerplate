@@ -31,6 +31,12 @@ License URI: https://tylerkanz.com
 }
 
 .entry-content {
+    margin-top: 80px;
+    min-height: 85vh;
+}
+
+.entry-content-exact {
+    margin-top: 69px;
     min-height: 85vh;
 }
 

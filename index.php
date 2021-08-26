@@ -2,15 +2,6 @@
 <div class="entry-content">
 
     <body>
-    <div class="loader-wrapper">
-            <span class="loader"><span class="loader-inner"></span></span>
-        </div>
-        <script>
-            $(window).on("load", function() {
-                $(".loader-wrapper").fadeOut("slow");
-            });
-        </script>
-        <div class="se-pre-con"></div>
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                 <div class="container-fluid" style="margin-top: 64px">
                     <?php the_content(); ?>
@@ -37,5 +28,4 @@
         <?php endif; ?>
         <?php wp_footer(); ?>
     </body>
-</div>
-<?php get_footer(); ?>
+    <?php get_footer(); ?>
