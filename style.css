@@ -1,0 +1,45 @@
+/*
+Theme Name: WP-Boilerplate
+Theme URI: https://github.com/tylerkanz/wp-bootstrap-boilerplate
+Author: Tyler Kanz
+Author URI: https://tylerkanz.com
+Version: 0.08
+Requires at least: 5.0
+Tested up to: 5.8
+Requires PHP: 7.4
+License URI: https://tylerkanz.com
+
+*/
+
+
+/* Table of Contents
+ * -----------------
+ * Typography
+*/
+
+
+/* Typography */
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('assets/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('assets/fonts/Roboto-Light.ttf');
+}
+
+.entry-content {
+    min-height: 85vh;
+}
+
+.header-icon {
+    font-size: 25px;
+}
+
+:target:before {
+    content: "";
+    display: block;
+    margin: 75px 0 0;
+}
